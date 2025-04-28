@@ -137,59 +137,7 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Pricing Section */}
-      <section className="py-16">
-        <div className="container">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4">Plans et tarifs</h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">
-              Choisissez le plan qui correspond à vos besoins. Commencez gratuitement et passez à la version premium quand vous le souhaitez.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
-            <PricingCard
-              title="Gratuit"
-              price="Gratuit"
-              description="Parfait pour une utilisation occasionnelle"
-              features={[
-                "Accès à tous les types de documents",
-                "Modèles de base",
-                "Export en PDF",
-                "1 document par jour",
-              ]}
-              buttonText="Commencer gratuitement"
-            />
-            <PricingCard
-              title="Premium"
-              price="9,99€"
-              description="Pour les utilisateurs réguliers"
-              features={[
-                "Tous les avantages du plan gratuit",
-                "Modèles premium exclusifs",
-                "Aucune publicité",
-                "Export PDF et Word",
-                "Documents illimités",
-              ]}
-              buttonText="S'abonner maintenant"
-              popular
-            />
-            <PricingCard
-              title="Business"
-              price="24,99€"
-              description="Pour les équipes et les professionnels"
-              features={[
-                "Tous les avantages du plan Premium",
-                "Assistance prioritaire",
-                "Modèles personnalisables",
-                "Stockage illimité",
-                "Gestion multi-utilisateurs",
-              ]}
-              buttonText="Contacter les ventes"
-            />
-          </div>
-        </div>
-      </section>
+      
 
       {/* CTA Section */}
       <section className="py-16 bg-primary text-white">
